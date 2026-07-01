@@ -20,6 +20,8 @@ class Solution:
         reverse(0,k-1)
         reverse(k,n-1)
 
+        return nums
+
     k=int(input())
     nums=list(map(int,input().split()))
     print(rotate(nums,k))
