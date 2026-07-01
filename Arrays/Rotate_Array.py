@@ -1,7 +1,10 @@
 """
-Problem: Two Sum
+Problem: Rotate Array
 Platform: LeetCode
-Difficulty: Easy
+Difficulty: Medium
+
+Time Complexity: O(n)
+Space Complexity: O(1)
 """
 
 class Solution:
