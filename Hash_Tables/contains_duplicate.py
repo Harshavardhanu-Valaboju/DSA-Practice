@@ -1,0 +1,24 @@
+"""
+Problem: Contains Duplicate
+Platform: LeetCode
+Difficulty: Easy 
+Topics: Array, Hash Table, Sorting
+
+"""
+
+
+def containsDuplicate( nums: List[int]) -> bool:
+    a=len(nums)
+    b=len(set(nums))
+    if a==b:
+        return False
+    else:
+        return True
+nums=list(map(int,input().split()))
+print(containsDuplicate(nums))
+
+
+"""
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
