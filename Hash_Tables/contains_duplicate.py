@@ -21,4 +21,7 @@ print(containsDuplicate(nums))
 """
 Time Complexity: O(n)
 Space Complexity: O(n)
+
+I have solve this problem in a very optimized manner using the set and without using a Loop.
+
 """
