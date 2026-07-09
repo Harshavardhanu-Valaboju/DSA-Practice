@@ -7,7 +7,7 @@ Topics: Array, Hash Table, Sorting
 """
 
 
-def containsDuplicate( nums: List[int]) -> bool:
+def containsDuplicate( nums):
     a=len(nums)
     b=len(set(nums))
     if a==b:
