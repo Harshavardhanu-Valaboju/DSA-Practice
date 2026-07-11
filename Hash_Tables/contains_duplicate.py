@@ -22,6 +22,6 @@ print(containsDuplicate(nums))
 Time Complexity: O(n)
 Space Complexity: O(n)
 
-I have solve this problem in a very optimized manner using the set and without using a Loop.
+I have solved this in a very simple way using the basic properties in python Set and Conditional statements.
 
 """
